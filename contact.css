@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;						/* obnulyaem nastrojki*/
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body {
+	font-family: 'Montserrat';				/*shrift*/
+}
+header{
+	width: 100%;						/*okno dlya menyu*/
+	background: #DCDCDC;
+	display: flex;				/*t.k. raspolozeny sleva i sparava*/
+	position: fixed;
+}
+.header_logo{
+	color: #000;				/*nastrojki dlya Balci Emlak Deniz*/
+	font-weight: 900;
+	font-size: 27px;
+	cursor: pointer;
+	margin-top: 25px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+nav{
+	margin-top: 29px;
+	margin-bottom: 29px;		/*dlya ostalnogo texta*/
+	margin-left: 28%;
+}
+.topnav a{
+	font-size: 19px;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	padding: 16px;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #fff;			/*podcherkivanie pri navedenii*/
+	opacity: 0.7;
+}
+.topnav .icon{
+	display: none;				/*ikonka burder ubral*/
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: #f0f0f0;
+}
+.wrapper{
+	width: 75%
+	margin:0 auto;
+}
+
+.contact_us{
+	text-align: center;
+	padding: 175px 0 100px 0;
+}
+.contact_us h1{
+	font-size: 35px;;
+	font-weight: 900;
+	margin-bottom: 35px;
+}
+.contact_us p{
+	font-size: 25px;;
+	font-weight: 400;
+}
+.contacts{
+	display: flex;
+	text-align: center;
+	margin: 70px 250px 100px 250px;
+}
+.how_contact{
+	margin-left: 80px;
+}
+.photo_contact{
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 25px auto;
+}
+.title_contact{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.contact_info{
+	font-size: 15px;
+}
+.contact_info p{
+	font-size: 15px;
+}
+.contact_info a{
+	color: #090974;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.map h1{
+	font-size: 35px;;
+	font-weight: 700;
+	margin-bottom: 35px;
+	text-align: center;
+	margin-right: 30px;
+}
+.maps{
+	display: flex;
+	margin: 50px 450px 100px 450px;
+}
+
+footer{
+	width: 100%;
+	background: #000;
+	height: auto;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 0 20px 10px;
+}
